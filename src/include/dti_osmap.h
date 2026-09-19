@@ -97,7 +97,7 @@ extern "C"
    ========================================================================== */
 
 /**
-   Pointer Struct for alligned buffer allocation and access.
+   Pointer Struct for aligned buffer allocation and access.
 */
 typedef union
 {
@@ -163,7 +163,7 @@ typedef union
 #define DTI_MSecSleep               IFXOS_MSecSleep
 
 
-/* syncronization */
+/* synchronization */
 #define DTI_LockInit                (void)IFXOS_LockInit
 #define DTI_LockGet                 IFXOS_LockGet
 #define DTI_LockRelease             (void)IFXOS_LockRelease
@@ -194,12 +194,12 @@ typedef union
 #define DTI_PRN_USR_DBG_NL          IFXOS_PRN_USR_DBG_NL
 #else
 #define DTI_PRN_USR_DBG_NL(module_name, dbg_level, print_message)  /*lint -e{19} */
-#endif  /* #if (DLI_DEBUG_PRINT == 1) */
+#endif  /* #if (DTI_DEBUG_PRINT == 1) */
 #if (DTI_ERROR_PRINT == 1)
 #define DTI_PRN_USR_ERR_NL          IFXOS_PRN_USR_ERR_NL
 #else
 #define DTI_PRN_USR_ERR_NL(module_name, dbg_level, print_message)  /*lint -e{19} */
-#endif  /* #if (DLI_DEBUG_PRINT == 1) */
+#endif  /* #if (DTI_ERROR_PRINT == 1) */
 
 #define DTI_PRN_LEVEL_HIGH          IFXOS_PRN_LEVEL_HIGH
 #define DTI_PRN_LEVEL_NORMAL        IFXOS_PRN_LEVEL_NORMAL

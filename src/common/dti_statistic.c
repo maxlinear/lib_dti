@@ -18,10 +18,10 @@
 
 
 #if (DTI_STAT_DEV_IF_NAME_LEN != DTI_MAX_LEN_DEVICE_INTERFACE_NAME)
-#	error "DTI Statistic - missmatch DEV IF Name length (interal/statistic)"
+#	error "DTI Statistic - mismatch DEV IF Name length (internal/statistic)"
 #endif
 #if (DTI_STAT_CLI_IF_NAME_LEN != DTI_CLI_MAX_NAME_LEN)
-#	error "DTI Statistic - missmatch CLI IF Name length (interal/statistic)"
+#	error "DTI Statistic - mismatch CLI IF Name length (internal/statistic)"
 #endif
 
 
