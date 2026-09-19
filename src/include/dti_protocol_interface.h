@@ -20,7 +20,7 @@
    This Group contains the definitions and functions of the Debug and Trace
    protocol Layer.
 
-   To fullfill the protocol, basic functions are provided to setup and manage
+   To fulfill the protocol, basic functions are provided to setup and manage
    DTI packets. This module provides routines for setup, update and change the
    DTI packet header and packet corresponding to the DTI protocol.
 
@@ -209,15 +209,15 @@ extern IFX_int_t DTI_headerPacketTypeSet(
    pIn      - points to the input str. Depending on the base the
               corresponding characters are allowed.
 \param
-   base     - used base for convertion, if base is 0
+   base     - used base for conversion, if base is 0
                base 16 will be used if the string starts with "0x", else
                base 10 (dec) will be used.
 \param
    pRetVal  - return pointer, points to the location to store the converted value.
 
 \return
-   IFX_SUCCESS convertion done, and the value is returned via the "pRetVal" arg
-   IFX_ERROR   error in the convertion occurred.
+   IFX_SUCCESS conversion done, and the value is returned via the "pRetVal" arg
+   IFX_ERROR   error in the conversion occurred.
 
 \remark
    Shift to IFXOS ??

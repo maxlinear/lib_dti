@@ -103,7 +103,7 @@ enum DTI_Error_e
    /** Operation failed because of invalid / missing config */
    DTI_ERR_CONFIGURATION   = -5,
 
-   /** The remote connection cannot established or has dropped */
+   /** The remote connection cannot be established or has dropped */
    DTI_ERR_CONNECTION      = -4,
 
    /** There is not enough memory to finish current operation */
@@ -149,7 +149,7 @@ typedef struct DTI_AgentStartupSettings_s
 } DTI_AgentStartupSettings_t;
 
 /**
-   Startup settings for a device interfaces.
+   Startup settings for device interfaces.
 */
 typedef struct DTI_AgentStartupDevIfSettings_s
 {
